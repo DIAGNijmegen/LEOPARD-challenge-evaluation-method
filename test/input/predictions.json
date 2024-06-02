@@ -1,0 +1,143 @@
+[
+    {
+        "pk": "7ea5bb86-00a9-451b-b3fb-d437bb70bd75",
+        "inputs": [
+            {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0046.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-whole-slide-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-wsi"
+                }
+            },
+              {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0046_tissue.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-mask",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-tissue-mask"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": "https://grand-challenge.org/media/some-link/overall-survival-years.json",
+                "image": null,
+                "value": null,
+                "interface": {
+                    "slug": "overall-survival-years",
+                    "kind": "Float",
+                    "super_kind": "File",
+                    "relative_path": "overall-survival-years.json"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "d15b8ea6-2fa1-4949-a32c-a1eabb73322b",
+        "inputs": [
+           {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0400.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-whole-slide-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-wsi"
+                }
+            },
+              {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0400_tissue.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-mask",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-tissue-mask"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": "https://grand-challenge.org/media/some-link/overall-survival-years.json",
+                "image": null,
+                "value": null,
+                "interface": {
+                    "slug": "overall-survival-years",
+                    "kind": "Float",
+                    "super_kind": "File",
+                    "relative_path": "overall-survival-years.json"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    },
+    {
+        "pk": "95d5d69a-5a3e-4883-9a4f-652674dccd7f",
+        "inputs": [
+           {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0403.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-whole-slide-image",
+                    "kind": "Image",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-wsi"
+                }
+            },
+              {
+                "file": null,
+                "image": {
+                    "name": "case_radboud_0403_tissue.tif"
+                },
+                "value": null,
+                "interface": {
+                    "slug": "prostatectomy-tissue-mask",
+                    "kind": "Segmentation",
+                    "super_kind": "Image",
+                    "relative_path": "images/prostatectomy-tissue-mask"
+                }
+            }
+        ],
+        "outputs": [
+            {
+                "file": "https://grand-challenge.org/media/some-link/overall-survival-years.json",
+                "image": null,
+                "value": null,
+                "interface": {
+                    "slug": "overall-survival-years",
+                    "kind": "Float",
+                    "super_kind": "File",
+                    "relative_path": "overall-survival-years.json"
+                }
+            }
+        ],
+        "status": "Succeeded",
+        "started_at": "2023-11-29T10:31:25.691799Z",
+        "completed_at": "2023-11-29T10:31:50.691799Z"
+    }
+]

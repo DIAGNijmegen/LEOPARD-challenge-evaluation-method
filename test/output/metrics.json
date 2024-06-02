@@ -1,0 +1,25 @@
+{
+    "results": [
+        {
+            "case_id": "case_radboud_0046.tif",
+            "case_id_gt_time": 19.16769336,
+            "case_id_gt_event": 0,
+            "case_id_prediction_years_to_recurrence": 10
+        },
+        {
+            "case_id": "case_radboud_0400.tif",
+            "case_id_gt_time": 1.349760438,
+            "case_id_gt_event": 0,
+            "case_id_prediction_years_to_recurrence": 1
+        },
+        {
+            "case_id": "case_radboud_0403.tif",
+            "case_id_gt_time": 11.89322382,
+            "case_id_gt_event": 1,
+            "case_id_prediction_years_to_recurrence": 10
+        }
+    ],
+    "aggregates": {
+        "c_index": 0.5
+    }
+}
