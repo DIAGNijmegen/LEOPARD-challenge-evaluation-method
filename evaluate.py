@@ -68,7 +68,7 @@ def main():
     #print("events, survival_times, predicted_times",events, survival_times, predicted_times)
   
     # Negating the predicted survival times to convert them into risk scores before calculating the concordance index. 
-    # This ensures the concordance index correctly interprets higher scores as higher risk.
+    # This ensures the concordance index correctly interprets higher scores as lower risk.
     c_index = concordance_index_censored(events, survival_times, -predicted_times)
 
     print("c_index",c_index)
