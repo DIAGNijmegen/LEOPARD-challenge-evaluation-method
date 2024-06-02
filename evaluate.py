@@ -60,23 +60,15 @@ def main():
     with Pool(processes=4) as pool:
         metrics["results"] = pool.map(process, predictions)
     
-
     result_df = pd.DataFrame(metrics["results"])
-
-
-
-    
-
-    # Ensure the order matches between predictions and ground truth
-    #print("metrics[results] ",metrics["results"] )
-
-    #print("result_df",result_df)
     
     survival_times = np.array(result_df["case_id_gt_time"])
     events = np.array(result_df["case_id_gt_event"], dtype=bool)
     predicted_times = np.array(result_df["case_id_prediction_years_to_recurrence"])
     #print("events, survival_times, predicted_times",events, survival_times, predicted_times)
-
+  
+    # Negating the predicted survival times to convert them into risk scores before calculating the concordance index. 
+    # This ensures the concordance index correctly interprets higher scores as higher risk.
     c_index = concordance_index_censored(events, survival_times, -predicted_times)
 
     print("c_index",c_index)
