@@ -67,7 +67,7 @@ def main():
     predicted_times = np.array(result_df["case_id_prediction_years_to_recurrence"])
     #print("events, survival_times, predicted_times",events, survival_times, predicted_times)
   
-    # Negating the predicted survival times to convert them into risk scores before calculating the concordance index. 
+    # Negating the predicted times to convert them into risk scores before calculating the concordance index. 
     # This ensures the concordance index correctly interprets higher scores as lower risk.
     c_index = concordance_index_censored(events, survival_times, -predicted_times)
 
