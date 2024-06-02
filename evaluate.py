@@ -75,9 +75,9 @@ def main():
     survival_times = np.array(result_df["case_id_gt_time"])
     events = np.array(result_df["case_id_gt_event"], dtype=bool)
     predicted_times = np.array(result_df["case_id_prediction_years_to_recurrence"])
-    #print("events, survival_times, predicted_times",events, survival_times, -predicted_times)
+    #print("events, survival_times, predicted_times",events, survival_times, predicted_times)
 
-    c_index = concordance_index_censored(events, survival_times, predicted_times)
+    c_index = concordance_index_censored(events, survival_times, -predicted_times)
 
     print("c_index",c_index)
     
